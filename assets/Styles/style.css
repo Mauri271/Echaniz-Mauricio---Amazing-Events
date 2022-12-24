@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family:'Courier New', Courier, monospace;
+    color: rgb(51, 108, 214);
+    background-color: #030235;
 }
 
 #logo{
@@ -9,21 +11,43 @@
     height: 2rem;
 }
 
-.navbar-nav{
-    display: flex;
-    justify-content: end !important;
-}
-
 ul a{
     margin: 0.7rem;
-    border: 1px solid white;
+    border: 1px solid rgb(23, 88, 210);
 }
 
 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191767;
+    height: 30vh;
+    color: rgb(51, 108, 214);
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
     text-align: center;
 }
 
-#nav{
-    border-bottom-left-radius: 0.4rem;
-    border-bottom-right-radius: 0.4rem;
+#search{
+    width: 9.5vw;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    font-size:smaller;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#button{
+    background-color:#030235 ;
 }
