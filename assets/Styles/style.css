@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#logo{
+    width: 4rem;
+    height: 2rem;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: end !important;
+}
+
+ul a{
+    margin: 0.7rem;
+    border: 1px solid white;
+}
+
+h1{
+    text-align: center;
+}
+
+#nav{
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
